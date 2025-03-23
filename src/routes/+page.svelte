@@ -72,7 +72,7 @@
         <!-- svelte-ignore a11y_click_events_have_key_events -->
         <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
         <li class={`p-2 ${index % 2 === 0 ? "bg-gray-100" : "bg-white"} hover:bg-gray-200 cursor-pointer`} onclick={() => clickRow(item)}>
-          <span class="text-blue-500">{item.mobile_model}</span> - ชั้นวาง: {item.shelf_number}
+          <span class="text-blue-500">{item.mobile_model}</span> - รหัส: {item.shelf_number}
         </li>
       {/each}
     </ul>
